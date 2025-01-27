@@ -15,10 +15,10 @@ public class DoctorController {
     }
 
     public Doctor getDoctorById(int id) {
-        return repository.getDoctorById(id); // Return a Doctor object directly from the repository
+        return repository.getDoctorById(id);
     }
 
     public java.util.List<Doctor> getAllDoctors() {
-        return repository.getAllDoctors(); // Return a list of doctors
+        return repository.getAllDoctors();
     }
 }

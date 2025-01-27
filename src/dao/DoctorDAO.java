@@ -6,8 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class
-DoctorDAO {
+public class DoctorDAO {
     private final Connection connection;
 
     public DoctorDAO(Connection connection) {
